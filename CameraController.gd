@@ -51,7 +51,7 @@ func update_zoom(delta):
 	#if abs(zoomDif) < zoomChangeCutoff:
 	#	zoomFactor = oldRequestedZoom
 	#else:
-	zoomFactor = zoomFactor + zoomDif*delta*(zoomChangeFactor/delta)
+	zoomFactor = zoomFactor + zoomDif*delta*(zoomChangeFactor/(delta+0.0000001))
 	
 	_zoom.x = 1.0 / zoomFactor
 	_zoom.y = 1.0 / zoomFactor
