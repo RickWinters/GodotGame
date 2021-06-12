@@ -3,7 +3,6 @@
 [ext_resource path="res://grass.tres" type="TileSet" id=1]
 
 [node name="Grass Tile" type="TileMap"]
-visible = false
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
 format = 1
