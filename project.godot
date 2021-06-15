@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="First Game Project"
-run/main_scene="res://MainScene.tscn"
+run/main_scene="res://Scenes/MainScene.tscn"
 config/icon="res://icon.png"
 
 [input]

@@ -1,9 +1,9 @@
 extends Camera2D
 
-var requestedZoom : float = 4.0
-var oldRequestedZoom : float = 4.0
+var requestedZoom : float = 2.0
+var oldRequestedZoom : float = 2.0
 
-var zoomFactor : float = 4.0
+var zoomFactor : float = 2.0
 var zoomChangeFactor : float = 0.05
 var zoomChangeCutoff : float = 0.05
 var zoomDif : float = 0.0
@@ -15,8 +15,8 @@ var changecounterToNormal : int = 10
 var changeCounterReset : int = 0 # reset zoomChangeCounter when this reach "Limit
 var changeCounterResetLimit: int = 5
 
-var normalZoomFactor : float = 3.5
-var movingZoomFactor : float = 2.5
+var normalZoomFactor : float = 2.5
+var movingZoomFactor : float = 1.5
 
 var _zoom : Vector2 = Vector2()
 
